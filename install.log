@@ -1,0 +1,82 @@
+
+2023-09-14 20:53:45...installerHook: Info: custom/install/install_hooks.php not present, no custom hooks to execute
+2023-09-14 20:54:12...installerHook: Info: custom/install/install_hooks.php not present, no custom hooks to execute
+2023-09-14 20:54:16...Begin System Check Process *************
+2023-09-14 20:54:16...XML Parsing Support Found
+2023-09-14 20:54:16...JSON Parsing Support Found
+2023-09-14 20:54:16...MBString Support Found
+2023-09-14 20:54:16...ERROR:: ZIP support not found: SuiteCRM needs ZIP support in order to process compressed files.
+2023-09-14 20:54:16.../custom directory and subdirectory check passed
+2023-09-14 20:54:16...cache directory and subdirectory check passed
+2023-09-14 20:54:17.../module  directory and subdirectory check passed
+2023-09-14 20:54:17.../upload directory check passed
+2023-09-14 20:54:17...ERROR: Zip support not found.
+2023-09-14 20:54:17...PCRE version check passed
+2023-09-14 20:54:17...installerHook: Info: custom/install/install_hooks.php not present, no custom hooks to execute
+2023-09-14 20:54:17...php.ini location found. C:\xampp\php\php.ini
+2023-09-14 20:54:17...Outputting HTML for System check
+2023-09-14 20:54:17...Errors were found *************
+2023-09-14 20:55:05...Begin System Check Process *************
+2023-09-14 20:55:05...XML Parsing Support Found
+2023-09-14 20:55:05...JSON Parsing Support Found
+2023-09-14 20:55:05...MBString Support Found
+2023-09-14 20:55:05...ERROR:: ZIP support not found: SuiteCRM needs ZIP support in order to process compressed files.
+2023-09-14 20:55:05.../custom directory and subdirectory check passed
+2023-09-14 20:55:05...cache directory and subdirectory check passed
+2023-09-14 20:55:06.../module  directory and subdirectory check passed
+2023-09-14 20:55:06.../upload directory check passed
+2023-09-14 20:55:06...ERROR: Zip support not found.
+2023-09-14 20:55:06...PCRE version check passed
+2023-09-14 20:55:06...installerHook: Info: custom/install/install_hooks.php not present, no custom hooks to execute
+2023-09-14 20:55:06...php.ini location found. C:\xampp\php\php.ini
+2023-09-14 20:55:06...Outputting HTML for System check
+2023-09-14 20:55:06...Errors were found *************
+2023-09-14 20:55:08...Begin System Check Process *************
+2023-09-14 20:55:08...XML Parsing Support Found
+2023-09-14 20:55:08...JSON Parsing Support Found
+2023-09-14 20:55:08...MBString Support Found
+2023-09-14 20:55:08...ERROR:: ZIP support not found: SuiteCRM needs ZIP support in order to process compressed files.
+2023-09-14 20:55:08.../custom directory and subdirectory check passed
+2023-09-14 20:55:08...cache directory and subdirectory check passed
+2023-09-14 20:55:08.../module  directory and subdirectory check passed
+2023-09-14 20:55:08.../upload directory check passed
+2023-09-14 20:55:08...ERROR: Zip support not found.
+2023-09-14 20:55:08...PCRE version check passed
+2023-09-14 20:55:08...installerHook: Info: custom/install/install_hooks.php not present, no custom hooks to execute
+2023-09-14 20:55:08...php.ini location found. C:\xampp\php\php.ini
+2023-09-14 20:55:08...Outputting HTML for System check
+2023-09-14 20:55:08...Errors were found *************
+2023-09-14 20:55:12...Begin System Check Process *************
+2023-09-14 20:55:12...XML Parsing Support Found
+2023-09-14 20:55:12...JSON Parsing Support Found
+2023-09-14 20:55:12...MBString Support Found
+2023-09-14 20:55:12...ERROR:: ZIP support not found: SuiteCRM needs ZIP support in order to process compressed files.
+2023-09-14 20:55:12.../custom directory and subdirectory check passed
+2023-09-14 20:55:12...cache directory and subdirectory check passed
+2023-09-14 20:55:12.../module  directory and subdirectory check passed
+2023-09-14 20:55:12.../upload directory check passed
+2023-09-14 20:55:12...ERROR: Zip support not found.
+2023-09-14 20:55:12...PCRE version check passed
+2023-09-14 20:55:12...installerHook: Info: custom/install/install_hooks.php not present, no custom hooks to execute
+2023-09-14 20:55:12...php.ini location found. C:\xampp\php\php.ini
+2023-09-14 20:55:12...Outputting HTML for System check
+2023-09-14 20:55:12...Errors were found *************
+2023-09-14 20:55:34...installerHook: Info: custom/install/install_hooks.php not present, no custom hooks to execute
+2023-09-14 20:55:37...Begin System Check Process *************
+2023-09-14 20:55:37...XML Parsing Support Found
+2023-09-14 20:55:37...JSON Parsing Support Found
+2023-09-14 20:55:37...MBString Support Found
+2023-09-14 20:55:37...ZIP Support Found
+2023-09-14 20:55:37.../custom directory and subdirectory check passed
+2023-09-14 20:55:37...cache directory and subdirectory check passed
+2023-09-14 20:55:38.../module  directory and subdirectory check passed
+2023-09-14 20:55:38.../upload directory check passed
+2023-09-14 20:55:38.../zip check passed
+2023-09-14 20:55:38...PCRE version check passed
+2023-09-14 20:55:38...installerHook: Info: custom/install/install_hooks.php not present, no custom hooks to execute
+2023-09-14 20:55:38...php.ini location found. C:\xampp\php\php.ini
+2023-09-14 20:55:38...Outputting HTML for System check
+2023-09-14 20:55:38...No Errors were found *************
+2023-09-14 20:55:39...installerHook: Info: custom/install/install_hooks.php not present, no custom hooks to execute
+2023-09-14 20:56:27...installerHook: Info: custom/install/install_hooks.php not present, no custom hooks to execute
+2023-09-14 20:56:31...installerHook: Info: custom/install/install_hooks.php not present, no custom hooks to execute
