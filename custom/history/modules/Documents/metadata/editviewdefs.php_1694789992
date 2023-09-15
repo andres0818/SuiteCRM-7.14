@@ -52,6 +52,7 @@ array (
             'name' => 'contract_name',
             'label' => 'LBL_CONTRACT_NAME',
           ),
+          1 => '',
         ),
         1 => 
         array (

@@ -31,12 +31,12 @@ array (
       'javascript' => '{sugar_getscript file="include/javascript/popup_parent_helper.js"}
 {sugar_getscript file="cache/include/javascript/sugar_grp_jsolait.js"}
 {sugar_getscript file="modules/Documents/documents.js"}',
-      'useTabs' => false,
+      'useTabs' => true,
       'tabDefs' => 
       array (
         'LBL_EDITVIEW_PANEL6' => 
         array (
-          'newTab' => false,
+          'newTab' => true,
           'panelDefault' => 'expanded',
         ),
       ),
@@ -46,14 +46,6 @@ array (
       'lbl_editview_panel6' => 
       array (
         0 => 
-        array (
-          0 => 
-          array (
-            'name' => 'contract_name',
-            'label' => 'LBL_CONTRACT_NAME',
-          ),
-        ),
-        1 => 
         array (
           0 => 
           array (

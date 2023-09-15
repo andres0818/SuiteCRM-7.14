@@ -49,14 +49,6 @@ array (
         array (
           0 => 
           array (
-            'name' => 'contract_name',
-            'label' => 'LBL_CONTRACT_NAME',
-          ),
-        ),
-        1 => 
-        array (
-          0 => 
-          array (
             'name' => 'email_c',
             'label' => 'LBL_EMAIL',
           ),

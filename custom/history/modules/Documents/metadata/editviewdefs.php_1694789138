@@ -34,7 +34,7 @@ array (
       'useTabs' => false,
       'tabDefs' => 
       array (
-        'LBL_EDITVIEW_PANEL6' => 
+        '&LT;FONT STYLE=&QUOT;VERTICAL-ALIGN: INHERIT;&QUOT;&GT;&LT;FONT STYLE=&QUOT;VERTICAL-ALIGN: INHERIT;&QUOT;&GT;LBL_DOCUMENT_INFORMACIóN&LT;/FONT&GT;&LT;/FONT&GT;' => 
         array (
           'newTab' => false,
           'panelDefault' => 'expanded',
@@ -43,22 +43,54 @@ array (
     ),
     'panels' => 
     array (
-      'lbl_editview_panel6' => 
+      '&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;lbl_document_información&lt;/font&gt;&lt;/font&gt;' => 
       array (
         0 => 
         array (
           0 => 
           array (
-            'name' => 'contract_name',
-            'label' => 'LBL_CONTRACT_NAME',
+            'name' => 'null',
+            'label' => 'null',
           ),
         ),
         1 => 
         array (
           0 => 
           array (
-            'name' => 'email_c',
-            'label' => 'LBL_EMAIL',
+            'name' => 'null',
+            'label' => 'null',
+          ),
+        ),
+        2 => 
+        array (
+          0 => 
+          array (
+            'name' => 'null',
+            'label' => 'null',
+          ),
+        ),
+        3 => 
+        array (
+          0 => 
+          array (
+            'name' => 'null',
+            'label' => 'null',
+          ),
+        ),
+        4 => 
+        array (
+          0 => 
+          array (
+            'name' => 'null',
+            'label' => 'null',
+          ),
+        ),
+        5 => 
+        array (
+          0 => 
+          array (
+            'name' => 'null',
+            'label' => 'null',
           ),
         ),
       ),

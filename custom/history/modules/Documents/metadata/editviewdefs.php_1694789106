@@ -34,7 +34,7 @@ array (
       'useTabs' => false,
       'tabDefs' => 
       array (
-        'LBL_EDITVIEW_PANEL6' => 
+        'LBL_DOCUMENT_INFORMATION' => 
         array (
           'newTab' => false,
           'panelDefault' => 'expanded',
@@ -43,15 +43,11 @@ array (
     ),
     'panels' => 
     array (
-      'lbl_editview_panel6' => 
+      'lbl_document_information' => 
       array (
         0 => 
         array (
-          0 => 
-          array (
-            'name' => 'contract_name',
-            'label' => 'LBL_CONTRACT_NAME',
-          ),
+          0 => 'document_name',
         ),
         1 => 
         array (
@@ -59,6 +55,33 @@ array (
           array (
             'name' => 'email_c',
             'label' => 'LBL_EMAIL',
+          ),
+        ),
+        2 => 
+        array (
+          0 => 'subcategory_id',
+        ),
+        3 => 
+        array (
+          0 => 
+          array (
+            'name' => 'description',
+          ),
+        ),
+        4 => 
+        array (
+          0 => 
+          array (
+            'name' => 'related_doc_rev_number',
+            'customCode' => '<select name="related_doc_rev_id" id="related_doc_rev_id" {$RELATED_DOCUMENT_REVISION_DISABLED}>{$RELATED_DOCUMENT_REVISION_OPTIONS}</select>',
+          ),
+        ),
+        5 => 
+        array (
+          0 => 
+          array (
+            'name' => 'assigned_user_name',
+            'label' => 'LBL_ASSIGNED_TO_NAME',
           ),
         ),
       ),
