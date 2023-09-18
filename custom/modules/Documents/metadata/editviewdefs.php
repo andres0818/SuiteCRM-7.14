@@ -37,9 +37,10 @@ array (
         'LBL_EDITVIEW_PANEL6' => 
         array (
           'newTab' => false,
-          'panelDefault' => 'collapsed',
+          'panelDefault' => 'expanded',
         ),
       ),
+      'syncDetailEditViews' => true,
     ),
     'panels' => 
     array (
@@ -52,7 +53,6 @@ array (
             'name' => 'contract_name',
             'label' => 'LBL_CONTRACT_NAME',
           ),
-          1 => '',
         ),
         1 => 
         array (
@@ -60,6 +60,78 @@ array (
           array (
             'name' => 'email_c',
             'label' => 'LBL_EMAIL',
+          ),
+        ),
+        2 => 
+        array (
+          0 => 
+          array (
+            'name' => 'campouno_c',
+            'label' => 'LBL_CAMPOUNO',
+          ),
+        ),
+        3 => 
+        array (
+          0 => 
+          array (
+            'name' => 'campodos_c',
+            'label' => 'LBL_CAMPODOS',
+          ),
+        ),
+        4 => 
+        array (
+          0 => 
+          array (
+            'name' => 'cmapotres_c',
+            'label' => 'LBL_CMAPOTRES',
+          ),
+        ),
+        5 => 
+        array (
+          0 => 
+          array (
+            'name' => 'campocuatro_c',
+            'label' => 'LBL_CAMPOCUATRO',
+          ),
+        ),
+        6 => 
+        array (
+          0 => 
+          array (
+            'name' => 'camposcinco_c',
+            'label' => 'LBL_CAMPOSCINCO',
+          ),
+        ),
+        7 => 
+        array (
+          0 => 
+          array (
+            'name' => 'camposseis_c',
+            'label' => 'LBL_CAMPOSSEIS',
+          ),
+        ),
+        8 => 
+        array (
+          0 => 
+          array (
+            'name' => 'campossiete_c',
+            'label' => 'LBL_CAMPOSSIETE',
+          ),
+        ),
+        9 => 
+        array (
+          0 => 
+          array (
+            'name' => 'camposocho_c',
+            'label' => 'LBL_CAMPOSOCHO',
+          ),
+        ),
+        10 => 
+        array (
+          0 => 
+          array (
+            'name' => 'camposnueve_c',
+            'label' => 'LBL_CAMPOSNUEVE',
           ),
         ),
       ),

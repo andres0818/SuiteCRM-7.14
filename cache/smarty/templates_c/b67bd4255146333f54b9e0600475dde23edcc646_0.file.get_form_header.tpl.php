@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.1, created on 2023-09-14 23:31:15
+/* Smarty version 4.3.1, created on 2023-09-18 17:40:02
   from 'C:\xampp\htdocs\SuiteCRM-7.14\include\get_form_header.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.1',
-  'unifunc' => 'content_65037ba3ba29c4_76579483',
+  'unifunc' => 'content_65086f52811136_26376131',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_65037ba3ba29c4_76579483 (Smarty_Internal_Template $_smarty_tpl) {
+function content_65086f52811136_26376131 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_assignInScope('is_min_max', strpos($_smarty_tpl->tpl_vars['other_text']->value,"_search.gif"));
 if ($_smarty_tpl->tpl_vars['is_min_max']->value !== false) {?>
     <?php $_smarty_tpl->_assignInScope('form_title', ((string)$_smarty_tpl->tpl_vars['other_text']->value)." ".((string)$_smarty_tpl->tpl_vars['form_title']->value));

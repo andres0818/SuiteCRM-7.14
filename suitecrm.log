@@ -7,3 +7,4 @@ Thu Sep 14 23:31:03 2023 [12052][1][SECURITY] Setting logger_file_name to ''.
 Thu Sep 14 23:31:03 2023 [12052][1][SECURITY] Log file extension can't be blank.
 Thu Sep 14 23:31:03 2023 [12052][1][SECURITY] Setting logger_file_name to ''.
 Thu Sep 14 23:31:03 2023 [12052][1][SECURITY] Log file extension can't be blank.
+Mon Sep 18 17:33:05 2023 [1276][1][FATAL] Email address save error

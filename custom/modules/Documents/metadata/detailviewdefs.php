@@ -36,111 +36,107 @@ array (
           'field' => '30',
         ),
       ),
-      'useTabs' => true,
+      'useTabs' => false,
       'tabDefs' => 
       array (
-        'LBL_DOCUMENT_INFORMATION' => 
+        'LBL_EDITVIEW_PANEL6' => 
         array (
-          'newTab' => true,
-          'panelDefault' => 'expanded',
-        ),
-        'LBL_PANEL_ASSIGNMENT' => 
-        array (
-          'newTab' => true,
+          'newTab' => false,
           'panelDefault' => 'expanded',
         ),
       ),
+      'syncDetailEditViews' => true,
     ),
     'panels' => 
     array (
-      'lbl_document_information' => 
+      'lbl_editview_panel6' => 
       array (
         0 => 
         array (
           0 => 
           array (
-            'name' => 'filename',
-            'displayParams' => 
-            array (
-              'link' => 'filename',
-              'id' => 'document_revision_id',
-            ),
-          ),
-          1 => 
-          array (
-            'name' => 'status_id',
-            'label' => 'LBL_DOC_STATUS',
+            'name' => 'contract_name',
+            'label' => 'LBL_CONTRACT_NAME',
           ),
         ),
         1 => 
         array (
           0 => 
           array (
-            'name' => 'document_name',
-            'label' => 'LBL_DOC_NAME',
-          ),
-          1 => 
-          array (
-            'name' => 'revision',
-            'label' => 'LBL_DOC_VERSION',
+            'name' => 'email_c',
+            'label' => 'LBL_EMAIL',
           ),
         ),
         2 => 
         array (
           0 => 
           array (
-            'name' => 'template_type',
-            'label' => 'LBL_DET_TEMPLATE_TYPE',
-          ),
-          1 => 
-          array (
-            'name' => 'is_template',
-            'label' => 'LBL_DET_IS_TEMPLATE',
+            'name' => 'campouno_c',
+            'label' => 'LBL_CAMPOUNO',
           ),
         ),
         3 => 
         array (
-          0 => 'active_date',
-          1 => 'exp_date',
+          0 => 
+          array (
+            'name' => 'campodos_c',
+            'label' => 'LBL_CAMPODOS',
+          ),
         ),
         4 => 
         array (
-          0 => 'category_id',
-          1 => 'subcategory_id',
+          0 => 
+          array (
+            'name' => 'cmapotres_c',
+            'label' => 'LBL_CMAPOTRES',
+          ),
         ),
         5 => 
         array (
-          0 => '',
-          1 => '',
+          0 => 
+          array (
+            'name' => 'campocuatro_c',
+            'label' => 'LBL_CAMPOCUATRO',
+          ),
         ),
         6 => 
         array (
-          0 => 'related_doc_name',
-          1 => 'related_doc_rev_number',
+          0 => 
+          array (
+            'name' => 'camposcinco_c',
+            'label' => 'LBL_CAMPOSCINCO',
+          ),
         ),
         7 => 
         array (
           0 => 
           array (
-            'name' => 'assigned_user_name',
-            'label' => 'LBL_ASSIGNED_TO_NAME',
+            'name' => 'camposseis_c',
+            'label' => 'LBL_CAMPOSSEIS',
           ),
         ),
-      ),
-      'LBL_PANEL_ASSIGNMENT' => 
-      array (
-        0 => 
+        8 => 
         array (
           0 => 
           array (
-            'name' => 'date_entered',
-            'customCode' => '{$fields.date_entered.value} {$APP.LBL_BY} {$fields.created_by_name.value}',
+            'name' => 'campossiete_c',
+            'label' => 'LBL_CAMPOSSIETE',
           ),
-          1 => 
+        ),
+        9 => 
+        array (
+          0 => 
           array (
-            'name' => 'date_modified',
-            'label' => 'LBL_DATE_MODIFIED',
-            'customCode' => '{$fields.date_modified.value} {$APP.LBL_BY} {$fields.modified_by_name.value}',
+            'name' => 'camposocho_c',
+            'label' => 'LBL_CAMPOSOCHO',
+          ),
+        ),
+        10 => 
+        array (
+          0 => 
+          array (
+            'name' => 'camposnueve_c',
+            'label' => 'LBL_CAMPOSNUEVE',
           ),
         ),
       ),
