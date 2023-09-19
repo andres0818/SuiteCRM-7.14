@@ -8,3 +8,14 @@ Thu Sep 14 23:31:03 2023 [12052][1][SECURITY] Log file extension can't be blank.
 Thu Sep 14 23:31:03 2023 [12052][1][SECURITY] Setting logger_file_name to ''.
 Thu Sep 14 23:31:03 2023 [12052][1][SECURITY] Log file extension can't be blank.
 Mon Sep 18 17:33:05 2023 [1276][1][FATAL] Email address save error
+Mon Sep 18 17:45:00 2023 [1276][1][FATAL] Exception handling in C:\xampp\htdocs\SuiteCRM-7.14\include\MVC\Controller\SugarController.php:397
+Mon Sep 18 17:45:00 2023 [1276][1][FATAL] Exception in Controller: Error al recuperar registro.  Este registro puede haber sido eliminado o puede que no esté autorizado para verlo.
+Mon Sep 18 18:27:08 2023 [1276][1][SECURITY] Invalid ext  logger_file_ext : ''.
+Mon Sep 18 18:27:08 2023 [1276][1][SECURITY] Setting logger_file_ext to '.log'.
+Mon Sep 18 18:27:08 2023 [1276][1][SECURITY] Setting logger_file_name to ''.
+Mon Sep 18 18:27:08 2023 [1276][1][SECURITY] Log file extension can't be blank.
+Mon Sep 18 18:27:08 2023 [1276][1][SECURITY] Setting logger_file_name to ''.
+Mon Sep 18 18:27:08 2023 [1276][1][SECURITY] Log file extension can't be blank.
+Mon Sep 18 19:20:16 2023 [1276][1][FATAL] User update error: Temp User is not retrieved at ID e7625530-031d-1943-db5d-650886f7fcb4, boolean given
+Mon Sep 18 19:20:17 2023 [1276][1][FATAL] Email address save error
+Mon Sep 18 19:22:41 2023 [1276][e7625530-031d-1943-db5d-650886f7fcb4][FATAL] Email address save error
