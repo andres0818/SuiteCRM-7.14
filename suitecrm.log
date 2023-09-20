@@ -19,3 +19,5 @@ Mon Sep 18 18:27:08 2023 [1276][1][SECURITY] Log file extension can't be blank.
 Mon Sep 18 19:20:16 2023 [1276][1][FATAL] User update error: Temp User is not retrieved at ID e7625530-031d-1943-db5d-650886f7fcb4, boolean given
 Mon Sep 18 19:20:17 2023 [1276][1][FATAL] Email address save error
 Mon Sep 18 19:22:41 2023 [1276][e7625530-031d-1943-db5d-650886f7fcb4][FATAL] Email address save error
+Tue Sep 19 21:49:40 2023 [14424][1][FATAL] Exception handling in C:\xampp\htdocs\SuiteCRM-7.14\include\MVC\Controller\SugarController.php:397
+Tue Sep 19 21:49:40 2023 [14424][1][FATAL] Exception in Controller: Subpanel was not defined
