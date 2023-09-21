@@ -14768,4 +14768,251 @@
       ),
     ),
   ),
+  'pru01_pruebas1_modified_user' => 
+  array (
+    'name' => 'pru01_pruebas1_modified_user',
+    'lhs_module' => 'Users',
+    'lhs_table' => 'users',
+    'lhs_key' => 'id',
+    'rhs_module' => 'Pru01_pruebas1',
+    'rhs_table' => 'pru01_pruebas1',
+    'rhs_key' => 'modified_user_id',
+    'relationship_type' => 'one-to-many',
+  ),
+  'pru01_pruebas1_created_by' => 
+  array (
+    'name' => 'pru01_pruebas1_created_by',
+    'lhs_module' => 'Users',
+    'lhs_table' => 'users',
+    'lhs_key' => 'id',
+    'rhs_module' => 'Pru01_pruebas1',
+    'rhs_table' => 'pru01_pruebas1',
+    'rhs_key' => 'created_by',
+    'relationship_type' => 'one-to-many',
+  ),
+  'pru01_pruebas1_assigned_user' => 
+  array (
+    'name' => 'pru01_pruebas1_assigned_user',
+    'lhs_module' => 'Users',
+    'lhs_table' => 'users',
+    'lhs_key' => 'id',
+    'rhs_module' => 'Pru01_pruebas1',
+    'rhs_table' => 'pru01_pruebas1',
+    'rhs_key' => 'assigned_user_id',
+    'relationship_type' => 'one-to-many',
+  ),
+  'securitygroups_pru01_pruebas1' => 
+  array (
+    'name' => 'securitygroups_pru01_pruebas1',
+    'lhs_module' => 'SecurityGroups',
+    'lhs_table' => 'securitygroups',
+    'lhs_key' => 'id',
+    'rhs_module' => 'Pru01_pruebas1',
+    'rhs_table' => 'pru01_pruebas1',
+    'rhs_key' => 'id',
+    'relationship_type' => 'many-to-many',
+    'join_table' => 'securitygroups_records',
+    'join_key_lhs' => 'securitygroup_id',
+    'join_key_rhs' => 'record_id',
+    'relationship_role_column' => 'module',
+    'relationship_role_column_value' => 'Pru01_pruebas1',
+    'fields' => 
+    array (
+      0 => 
+      array (
+        'name' => 'id',
+        'type' => 'char',
+        'len' => '36',
+        'required' => true,
+        'default' => '',
+      ),
+      1 => 
+      array (
+        'name' => 'securitygroup_id',
+        'type' => 'char',
+        'len' => '36',
+      ),
+      2 => 
+      array (
+        'name' => 'record_id',
+        'type' => 'char',
+        'len' => '36',
+      ),
+      3 => 
+      array (
+        'name' => 'module',
+        'type' => 'varchar',
+        'len' => '100',
+      ),
+      4 => 
+      array (
+        'name' => 'date_modified',
+        'type' => 'datetime',
+      ),
+      5 => 
+      array (
+        'name' => 'modified_user_id',
+        'type' => 'char',
+        'len' => '36',
+      ),
+      6 => 
+      array (
+        'name' => 'created_by',
+        'type' => 'char',
+        'len' => '36',
+      ),
+      7 => 
+      array (
+        'name' => 'deleted',
+        'type' => 'bool',
+        'len' => '1',
+        'required' => true,
+        'default' => '0',
+      ),
+    ),
+  ),
+  'pru01_pruebas1_email_addresses' => 
+  array (
+    'name' => 'pru01_pruebas1_email_addresses',
+    'lhs_module' => 'Pru01_pruebas1',
+    'lhs_table' => 'pru01_pruebas1',
+    'lhs_key' => 'id',
+    'rhs_module' => 'EmailAddresses',
+    'rhs_table' => 'email_addresses',
+    'rhs_key' => 'id',
+    'relationship_type' => 'many-to-many',
+    'join_table' => 'email_addr_bean_rel',
+    'join_key_lhs' => 'bean_id',
+    'join_key_rhs' => 'email_address_id',
+    'relationship_role_column' => 'bean_module',
+    'relationship_role_column_value' => 'Pru01_pruebas1',
+    'fields' => 
+    array (
+      0 => 
+      array (
+        'name' => 'id',
+        'type' => 'id',
+        'required' => true,
+      ),
+      1 => 
+      array (
+        'name' => 'email_address_id',
+        'type' => 'id',
+        'required' => true,
+      ),
+      2 => 
+      array (
+        'name' => 'bean_id',
+        'type' => 'id',
+        'required' => true,
+      ),
+      3 => 
+      array (
+        'name' => 'bean_module',
+        'type' => 'varchar',
+        'len' => 100,
+        'required' => true,
+      ),
+      4 => 
+      array (
+        'name' => 'primary_address',
+        'type' => 'bool',
+        'default' => '0',
+      ),
+      5 => 
+      array (
+        'name' => 'reply_to_address',
+        'type' => 'bool',
+        'default' => '0',
+      ),
+      6 => 
+      array (
+        'name' => 'date_created',
+        'type' => 'datetime',
+      ),
+      7 => 
+      array (
+        'name' => 'date_modified',
+        'type' => 'datetime',
+      ),
+      8 => 
+      array (
+        'name' => 'deleted',
+        'type' => 'bool',
+        'default' => 0,
+      ),
+    ),
+  ),
+  'pru01_pruebas1_email_addresses_primary' => 
+  array (
+    'name' => 'pru01_pruebas1_email_addresses_primary',
+    'lhs_module' => 'Pru01_pruebas1',
+    'lhs_table' => 'pru01_pruebas1',
+    'lhs_key' => 'id',
+    'rhs_module' => 'EmailAddresses',
+    'rhs_table' => 'email_addresses',
+    'rhs_key' => 'id',
+    'relationship_type' => 'many-to-many',
+    'join_table' => 'email_addr_bean_rel',
+    'join_key_lhs' => 'bean_id',
+    'join_key_rhs' => 'email_address_id',
+    'relationship_role_column' => 'primary_address',
+    'relationship_role_column_value' => '1',
+    'fields' => 
+    array (
+      0 => 
+      array (
+        'name' => 'id',
+        'type' => 'id',
+        'required' => true,
+      ),
+      1 => 
+      array (
+        'name' => 'email_address_id',
+        'type' => 'id',
+        'required' => true,
+      ),
+      2 => 
+      array (
+        'name' => 'bean_id',
+        'type' => 'id',
+        'required' => true,
+      ),
+      3 => 
+      array (
+        'name' => 'bean_module',
+        'type' => 'varchar',
+        'len' => 100,
+        'required' => true,
+      ),
+      4 => 
+      array (
+        'name' => 'primary_address',
+        'type' => 'bool',
+        'default' => '0',
+      ),
+      5 => 
+      array (
+        'name' => 'reply_to_address',
+        'type' => 'bool',
+        'default' => '0',
+      ),
+      6 => 
+      array (
+        'name' => 'date_created',
+        'type' => 'datetime',
+      ),
+      7 => 
+      array (
+        'name' => 'date_modified',
+        'type' => 'datetime',
+      ),
+      8 => 
+      array (
+        'name' => 'deleted',
+        'type' => 'bool',
+        'default' => 0,
+      ),
+    ),
+  ),
 );

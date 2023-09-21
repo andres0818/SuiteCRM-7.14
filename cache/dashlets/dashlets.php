@@ -1,5 +1,5 @@
 <?php
-// created: 2023-09-14 23:31:15
+// created: 2023-09-21 15:53:46
 $dashletsFiles = array (
   'MyAccountsDashlet' => 
   array (
@@ -332,6 +332,13 @@ $dashletsFiles = array (
     'class' => 'MyProjectTaskDashlet',
     'meta' => 'modules/ProjectTask/Dashlets/MyProjectTaskDashlet/MyProjectTaskDashlet.meta.php',
     'module' => 'ProjectTask',
+  ),
+  'Pru01_pruebas1Dashlet' => 
+  array (
+    'file' => 'modules/Pru01_pruebas1/Dashlets/Pru01_pruebas1Dashlet/Pru01_pruebas1Dashlet.php',
+    'class' => 'Pru01_pruebas1Dashlet',
+    'meta' => 'modules/Pru01_pruebas1/Dashlets/Pru01_pruebas1Dashlet/Pru01_pruebas1Dashlet.meta.php',
+    'module' => 'Pru01_pruebas1',
   ),
   'SpotsDashlet' => 
   array (
