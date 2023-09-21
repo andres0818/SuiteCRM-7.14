@@ -21,3 +21,5 @@ Mon Sep 18 19:20:17 2023 [1276][1][FATAL] Email address save error
 Mon Sep 18 19:22:41 2023 [1276][e7625530-031d-1943-db5d-650886f7fcb4][FATAL] Email address save error
 Tue Sep 19 21:49:40 2023 [14424][1][FATAL] Exception handling in C:\xampp\htdocs\SuiteCRM-7.14\include\MVC\Controller\SugarController.php:397
 Tue Sep 19 21:49:40 2023 [14424][1][FATAL] Exception in Controller: Subpanel was not defined
+Thu Sep 21 15:24:03 2023 [16404][1][FATAL] Exception handling in C:\xampp\htdocs\SuiteCRM-7.14\include\MVC\Controller\SugarController.php:397
+Thu Sep 21 15:24:03 2023 [16404][1][FATAL] Exception in Controller: Error: El campo ya existe
