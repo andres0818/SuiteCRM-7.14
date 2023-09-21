@@ -1,19 +1,7 @@
 <?php
-// created: 2023-09-20 14:39:41
+// created: 2023-09-20 15:43:04
 $GLOBALS['tabStructure'] = array (
-  'LBL_TABGROUP_SALES' => 
-  array (
-    'label' => 'LBL_TABGROUP_SALES',
-    'modules' => 
-    array (
-      0 => 'Home',
-      1 => 'Accounts',
-      2 => 'Contacts',
-      3 => 'Opportunities',
-      4 => 'Leads',
-    ),
-  ),
-  
+ 
   'LBL_TABGROUP_SUPPORT' => 
   array (
     'label' => 'LBL_TABGROUP_SUPPORT',
@@ -37,5 +25,14 @@ $GLOBALS['tabStructure'] = array (
       3 => 'Project',
     ),
   ),
-  
+  'LBL_GROUPTAB3_1695217384' => 
+  array (
+    'label' => 'LBL_GROUPTAB3_1695217384',
+    'modules' => 
+    array (
+      0 => 'Calls',
+      1 => 'Notes',
+      2 => 'Calendar',
+    ),
+  ),
 );
