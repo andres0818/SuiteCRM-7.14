@@ -23,3 +23,27 @@ Tue Sep 19 21:49:40 2023 [14424][1][FATAL] Exception handling in C:\xampp\htdocs
 Tue Sep 19 21:49:40 2023 [14424][1][FATAL] Exception in Controller: Subpanel was not defined
 Thu Sep 21 15:24:03 2023 [16404][1][FATAL] Exception handling in C:\xampp\htdocs\SuiteCRM-7.14\include\MVC\Controller\SugarController.php:397
 Thu Sep 21 15:24:03 2023 [16404][1][FATAL] Exception in Controller: Error: El campo ya existe
+Thu Sep 21 23:00:40 2023 [13532][1][FATAL] Action = editLayout with unknown view=SearchView
+Thu Sep 21 23:00:51 2023 [13532][1][FATAL] Action = editLayout with unknown view=SearchView
+Thu Sep 21 23:01:06 2023 [13532][1][FATAL] UndeployedMetaDataImplementation->getFileName(): view type custom is not recognized
+Thu Sep 21 23:01:06 2023 [13532][1][FATAL] UndeployedMetaDataImplementation->getFileName(): view type custom is not recognized
+Thu Sep 21 23:01:10 2023 [13532][1][FATAL] UndeployedMetaDataImplementation->getFileName(): view type custom is not recognized
+Thu Sep 21 23:01:10 2023 [13532][1][FATAL] UndeployedMetaDataImplementation->getFileName(): view type custom is not recognized
+Mon Sep 25 22:42:35 2023 [2756][-none-][FATAL] SECURITY: User authentication for jkondor failed
+Mon Sep 25 22:42:35 2023 [2756][-none-][FATAL] FAILED LOGIN:attempts[1], ip[::1], username[jkondor]
+Tue Dec 12 20:25:08 2023 [3904][-none-][FATAL] SECURITY: User authentication for soporte failed
+Tue Dec 12 20:25:08 2023 [3904][-none-][FATAL] FAILED LOGIN:attempts[1], ip[::1], username[soporte]
+Tue Dec 12 20:29:19 2023 [3904][-none-][FATAL] SECURITY: User authentication for admin failed
+Tue Dec 12 20:29:21 2023 [3904][-none-][FATAL] FAILED LOGIN:attempts[1], ip[::1], username[admin]
+Tue Dec 12 20:29:30 2023 [3904][-none-][FATAL] SECURITY: User authentication for admin failed
+Tue Dec 12 20:29:31 2023 [3904][-none-][FATAL] FAILED LOGIN:attempts[1], ip[::1], username[admin]
+Tue Dec 12 20:29:54 2023 [3904][-none-][FATAL] SECURITY: User authentication for admin failed
+Tue Dec 12 20:29:54 2023 [3904][-none-][FATAL] FAILED LOGIN:attempts[1], ip[::1], username[admin]
+Tue Dec 12 20:29:57 2023 [3904][-none-][FATAL] SECURITY: User authentication for admin failed
+Tue Dec 12 20:29:57 2023 [3904][-none-][FATAL] FAILED LOGIN:attempts[2], ip[::1], username[admin]
+Tue Dec 12 20:29:58 2023 [3904][-none-][FATAL] SECURITY: User authentication for admin failed
+Tue Dec 12 20:29:58 2023 [3904][-none-][FATAL] FAILED LOGIN:attempts[3], ip[::1], username[admin]
+Tue Dec 19 02:27:45 2023 [8432][-none-][FATAL] SECURITY: User authentication for soporte failed
+Tue Dec 19 02:27:45 2023 [8432][-none-][FATAL] FAILED LOGIN:attempts[1], ip[::1], username[soporte]
+Tue Dec 19 02:27:52 2023 [8432][-none-][FATAL] SECURITY: User authentication for admin failed
+Tue Dec 19 02:27:54 2023 [8432][-none-][FATAL] FAILED LOGIN:attempts[1], ip[::1], username[admin]

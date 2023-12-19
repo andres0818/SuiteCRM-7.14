@@ -1,6 +1,13 @@
 <?php
-// created: 2023-09-21 15:53:46
+// created: 2023-09-21 23:57:38
 $dashletsFiles = array (
+  'abc_pricesDashlet' => 
+  array (
+    'file' => 'modules/abc_prices/Dashlets/abc_pricesDashlet/abc_pricesDashlet.php',
+    'class' => 'abc_pricesDashlet',
+    'meta' => 'modules/abc_prices/Dashlets/abc_pricesDashlet/abc_pricesDashlet.meta.php',
+    'module' => 'abc_prices',
+  ),
   'MyAccountsDashlet' => 
   array (
     'file' => 'modules/Accounts/Dashlets/MyAccountsDashlet/MyAccountsDashlet.php',

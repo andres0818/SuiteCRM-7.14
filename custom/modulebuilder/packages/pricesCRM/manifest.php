@@ -63,9 +63,9 @@ $manifest = array (
   'icon' => '',
   'is_uninstallable' => true,
   'name' => 'pricesCRM',
-  'published_date' => '2023-09-21 20:53:27',
+  'published_date' => '2023-09-21 21:02:08',
   'type' => 'module',
-  'version' => 1695329607,
+  'version' => 1695330128,
   'remove_tables' => 'prompt',
 );
 

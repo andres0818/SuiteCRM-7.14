@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.1, created on 2023-09-18 17:40:07
+/* Smarty version 4.3.1, created on 2023-09-25 22:42:31
   from 'C:\xampp\htdocs\SuiteCRM-7.14\include\MVC\View\tpls\displayLoginJS.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.1',
-  'unifunc' => 'content_65086f576484b9_06082669',
+  'unifunc' => 'content_6511f0b77eb959_32596244',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_65086f576484b9_06082669 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6511f0b77eb959_32596244 (Smarty_Internal_Template $_smarty_tpl) {
 if ($_smarty_tpl->tpl_vars['MODULE_SUGAR_GRP1']->value) {?>
     <?php echo '<script'; ?>
  type="text/javascript">var module_sugar_grp1 = '<?php echo $_smarty_tpl->tpl_vars['MODULE_SUGAR_GRP1']->value;?>
